@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <SoftwareSerial.h>
  
-const char* ssid = "KM7";
-const char* password = "KEVIO_007";
+const char* ssid = "";
+const char* password = "";
  
 SoftwareSerial uno(16, 5); // RX TX
 WiFiServer server(80);
